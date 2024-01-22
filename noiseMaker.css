@@ -1,0 +1,37 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #dadada;
+}
+
+div.mainBody {
+    margin: auto;
+    width: 500px;
+    background-color: #dadada;
+    color: #363636;
+    text-align: center;
+}
+
+.keyword {
+    font-weight: bold;
+    color: blue;
+}
+
+.button {
+    border-style: solid;
+    border-radius: 5px;
+
+    background-color: lightGray;
+    padding: 5px;
+    border-color: black;
+    cursor: pointer;
+}
+
+.flexBoxHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
